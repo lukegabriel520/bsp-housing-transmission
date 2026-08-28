@@ -1,0 +1,5 @@
+term,coef,se_cluster,p_value
+"C(property_type, Treatment('Single-Detached'))[Single-Detached]:d_RRP_lag2",-0.0032380698944859997,0.0040816572363428175,0.4275900407344604
+"C(property_type, Treatment('Single-Detached'))[Duplex]:d_RRP_lag2",-0.003265337226400726,0.0024989627109467567,0.19132241580266596
+"C(property_type, Treatment('Single-Detached'))[Townhouse]:d_RRP_lag2",-0.007122254278488931,0.0007468343902440315,1.476043414104242e-21
+"C(property_type, Treatment('Single-Detached'))[Condominium]:d_RRP_lag2",-0.014614557344571046,0.0015843513419365443,2.853765705245795e-20
