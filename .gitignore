@@ -1,0 +1,14 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+outputs/
+data/*.rds
+data/*_verified.csv
+data/model_b_object.rds
+data/bayesian_posterior_summary.csv
