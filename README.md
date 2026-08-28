@@ -2,7 +2,7 @@
 
 Hi there. This repo is my attempt to answer a simple question with real data tools: when the Bangko Sentral ng Pilipinas (BSP) moves interest rates, how long does it take for home prices to feel it, and which types of homes move the most?
 
-I built this because rate hikes kept making headlines, and I wanted to see the link between policy, mortgage payments, and property prices in plain numbers. Condos and single-detached homes do not react the same way. I wanted to show that.
+I built this because rate hikes kept making headlines, and I wanted to see the link between policy, mortgage payments, and property prices in plain numbers. Condos and single-detached homes do not react the same way. I wanted to show that. (P.S I intend to move out soon enough so renting prices in high-rated cities would extremely empty my alr empty pockets)
 
 ## Why this exists
 
