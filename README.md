@@ -55,7 +55,6 @@ The charts and tables above are the main outputs. For the full narrative, see [B
 ```
 bsp-housing-transmission/
 ├── R/                      # Main analysis pipeline (run this first)
-├── python_verification/    # Cross-checks key R numbers in Python
 ├── data/                   # Panel dataset and result tables (CSV)
 ├── plots/                  # IRF and mortgage stress charts (PNG)
 ├── report/                 # Written study (Word doc)
@@ -65,7 +64,6 @@ bsp-housing-transmission/
 | Folder | What you will find |
 |--------|-------------------|
 | `R/` | Six scripts, numbered in order. Start with `00_run_all.R` to run everything. |
-| `python_verification/` | Optional sanity checks. Writes `*_verified.csv` files into `data/`. |
 | `data/` | The panel (`bsp_rppi_panel.csv`) plus regression, bootstrap, IRF, diagnostic, and mortgage outputs. |
 | `plots/` | Source images for this README: `irf_faceted.png`, `irf_overlay.png`, `mortgage_stress_matrix.png`. |
 | `report/` | [BSP_Housing_Transmission_Study.docx](report/BSP_Housing_Transmission_Study.docx), the full writeup. |
@@ -92,19 +90,6 @@ install.packages(c(
 ```
 
 Model B (Bayesian) needs a Stan backend. The script header in `R/00_run_all.R` has `cmdstanr` install notes.
-
-### Python verification (optional)
-
-From the project root:
-
-```bash
-python python_verification/verify_pipeline.py
-python python_verification/mortgage_and_diagnostics.py
-```
-
-These read and write under `data/`. Verified outputs use the `_verified` suffix and are gitignored.
-
-**Python packages:** `numpy`, `pandas`, `statsmodels`, `scipy`
 
 ## Key outputs
 
